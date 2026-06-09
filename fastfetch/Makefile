@@ -2,7 +2,7 @@ build: create_pkg
 
 build_fastfetch:
 	mkdir fastfetch/build
-	cmake -S fastfetch -B fastfetch/build -DCMAKE_BUILD_TYPE=Release -DCMAKE_EXE_LINKER_FLAGS="-static"
+	cmake -S fastfetch -B fastfetch/build -DCMAKE_BUILD_TYPE=Release
 	cmake --build fastfetch/build --target fastfetch -j$(nproc)
 
 cp_build: build_fastfetch
