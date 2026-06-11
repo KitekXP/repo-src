@@ -1,3 +1,6 @@
 [submodule "fastfetch/fastfetch"]
 	path = fastfetch/fastfetch
 	url = https://github.com/fastfetch-cli/fastfetch.git
+[submodule "tsux"]
+	path = tsux
+	url = git@github.com:KitekXP/tsux.git
