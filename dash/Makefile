@@ -40,3 +40,5 @@ clean_pkg:
 build: autogen configure compile
 
 clean: clean_build clean_pkg
+
+all: build package
