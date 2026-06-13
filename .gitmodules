@@ -4,3 +4,6 @@
 [submodule "tsux"]
 	path = tsux
 	url = git@github.com:KitekXP/tsux.git
+[submodule "dash/dash"]
+	path = dash/dash
+	url = https://github.com/nyuichi/dash.git
